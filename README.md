@@ -1,2 +1,2 @@
-# grav_dark_1
+# LiGrad
 gravity darkening light curves
