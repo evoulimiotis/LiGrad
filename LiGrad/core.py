@@ -10,7 +10,6 @@ G = const.G.value
 h = const.h.value
 c = const.c.value
 k_B = const.k_B.value
-
 __all__ = ["grav_dark_transit_model"]
 
 def grav_dark_transit_model(t_vals, orbital_period, st_mass, st_mean_radius, st_mean_temperature, beta, lamda, i_s, omega, 
@@ -256,3 +255,4 @@ def grav_dark_transit_model(t_vals, orbital_period, st_mass, st_mean_radius, st_
 
     tr_lightcurve = transit_lightcurve(t_vals)
     return tr_lightcurve
+
