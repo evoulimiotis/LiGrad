@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LiGrad"
+version = "0.1.0"
+description = "Transit Model for Gravity-Darkened Oblate Stars"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Eleftherios Voulimiotis", email = "evoulimi@auth.gr" }]
+requires-python = ">=3.8"
+keywords = ["astronomy", "astrophysics", "transit", "exoplanets", "lightcurve", "gravity-darkening"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "numpy>=1.21",
+  "scipy>=1.7",
+  "astropy>=5.0",
+  "pylightcurve"
+]
